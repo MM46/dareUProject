@@ -1,0 +1,6 @@
+framework module Pods_dareUProject {
+  umbrella header "Pods-dareUProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
