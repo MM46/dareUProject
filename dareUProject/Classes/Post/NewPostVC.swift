@@ -13,7 +13,7 @@ class NewPostVC: UIViewController {
     @IBOutlet weak var postImg: UIImageView!
     @IBOutlet weak var caption: UITextView!
     
-    var textViewPlaceHolderText = "WHAT DARE?"
+    var textViewPlaceHolderText = "Enter your title here.."
     
     // introducing camera
     var imgPicker: UIImagePickerController!
@@ -40,6 +40,8 @@ class NewPostVC: UIViewController {
         self.present(imgPicker, animated: true, completion: nil)
         
     }
+    
+    
     
     @IBAction func shareDareTapped(){
         
